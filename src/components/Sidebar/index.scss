@@ -1,0 +1,28 @@
+.nav-bar {
+     background: #191b43;
+     height: 150px;
+     width: 100%;
+     position: sticky;
+     top: 0;
+     z-index: 3;
+     min-width: 500px;
+
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 20px;
+
+         img{
+            display: block;
+            margin: 8px 0;
+            width: 70px;
+            height: auto;
+
+            &.sub-logo {
+                width: 70px;
+            }
+         }
+}
+}
